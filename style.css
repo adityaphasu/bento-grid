@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+    font-family: DM Sans;
+    src: url(./assets/fonts/static/DMSans-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: DM Sans;
+    src: url(./assets/fonts/static/DMSans-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: DM Sans;
+    src: url(./assets/fonts/static/DMSans-MediumItalic.ttf);
+    font-style: italic;
+}
+
 body {
     font-size: 1.125rem;
+    font-family: DM Sans, sans-serif;
 }
