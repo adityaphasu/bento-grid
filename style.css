@@ -2,25 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
-    font-family: DM Sans;
-    src: url(./assets/fonts/static/DMSans-Regular.ttf);
-    font-weight: 400;
+  font-family: DM Sans;
+  src: url(./assets/fonts/static/DMSans-Regular.ttf);
+  font-weight: 400;
 }
 @font-face {
-    font-family: DM Sans;
-    src: url(./assets/fonts/static/DMSans-Medium.ttf);
-    font-weight: 500;
+  font-family: DM Sans;
+  src: url(./assets/fonts/static/DMSans-Medium.ttf);
+  font-weight: 500;
 }
 
 @font-face {
-    font-family: DM Sans;
-    src: url(./assets/fonts/static/DMSans-MediumItalic.ttf);
-    font-style: italic;
+  font-family: DM Sans;
+  src: url(./assets/fonts/static/DMSans-MediumItalic.ttf);
+  font-style: italic;
 }
 
 body {
-    font-size: 1.125rem;
-    font-family: DM Sans, sans-serif;
+  font-size: 1.125rem;
+  font-family: DM Sans, sans-serif;
+  background-color: hsl(0deg 0% 96.08%);
+  padding: 2rem 1rem;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}
+
+.card {
+  border-radius: 0.5em;
 }
