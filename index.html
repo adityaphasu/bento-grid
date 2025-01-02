@@ -1,35 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <meta name="description" content="A bento grid layout">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A bento grid layout" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  
-  <title>Bento grid</title>
-</head>
-<body>
-  
-  Social Media 10x Faster with AI
-  Over 4,000 5-star reviews
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
 
-  Manage multiple accounts and platforms.
+    <title>Bento grid</title>
+  </head>
 
-  Maintain a consistent posting schedule.
+  <body>
+    <main class="grid gap-8">
+      <article class="card bg-purple-secondary text-center text-white px-9 py-[2.48rem]">
+        <h1 class="text-[2.7rem] leading-[2.65rem]">
+          Social Media <span class="text-yellow-secondary"> 10x </span> <i> Faster </i> with AI
+        </h1>
+        <div class="flex flex-col pt-6 gap-0.5 items-center">
+          <span class="block px-10"
+            ><img src="./assets/images/illustration-five-stars.webp" alt=""
+          /></span>
+          <p>Over 4,000 5-star reviews</p>
+        </div>
+      </article>
 
-  Schedule to social media.
-  Optimize post timings to publish content at the perfect time for your audience.
-  
-  Grow followers with non-stop content.
+      <article class="card bg-white px-[0.975rem] py-4 flex flex-col gap-[0.85rem]">
+        <img src="./assets/images/illustration-multiple-platforms.webp" alt="" />
+        <h2 class="text-[1.5rem] tracking-[-0.015em] trac leading-[1.6rem]">
+          Manage multiple accounts and platforms.
+        </h2>
+      </article>
 
-  >56% faster audience growth
-  
-  Create and schedule content quicker.
+      <article class="card bg-yellow-secondary flex flex-col px-4 pt-3 gap-4">
+        <h2 class="text-[1.5rem] tracking-[-0.02em] trac leading-[1.6rem]">
+          Maintain a consistent posting schedule.
+        </h2>
+        <div class="h-[8.5rem] overflow-hidden">
+          <img
+            src="./assets/images/illustration-consistent-schedule.webp"
+            alt=""
+            width="210"
+            height="100" />
+        </div>
+      </article>
 
-  Write your content using AI.
-  
-  
-</body>
+      <article
+        class="card bg-purple-primary flex flex-col items-center px-[1.1rem] py-[1.7rem] gap-[1.085rem] text-center">
+        <h2 class="text-[1.45rem]">Schedule to social media.</h2>
+        <div>
+          <img src="./assets/images/illustration-schedule-posts.webp" alt="" />
+        </div>
+        <p class="px-2 pt-1.5 pb-1 leading-5">
+          Optimize post timings to publish content at the perfect time for your audience.
+        </p>
+      </article>
+
+      <article
+        class="card bg-purple-secondary text-white flex flex-col text-center items-center px-4 py-6 gap-10 justify-center">
+        <div class="w-56">
+          <img src="./assets/images/illustration-grow-followers.webp" alt="" />
+        </div>
+        <h2 class="text-[1.75rem] px-10 leading-[1.8rem]">Grow followers with non-stop content.</h2>
+      </article>
+
+      <article class="card bg-white px-6 pt-4 pb-6 flex flex-col gap-5">
+        <div class="flex flex-col gap-0.5">
+          <span class="font-medium text-5xl tracking-[-0.08em] leading-tight">>56%</span>
+          <p>faster audience growth</p>
+        </div>
+        <div class="w-[11.25rem]">
+          <img src="./assets/images/illustration-audience-growth.webp" alt="" />
+        </div>
+      </article>
+
+      <article class="card bg-yellow-primary p-8 flex flex-col gap-6">
+        <h2 class="text-3xl tracking-tight leading-7">
+          Create and schedule content <i class="text-purple-secondary">quicker.</i>
+        </h2>
+        <div class="w-[11.85rem]">
+          <img src="./assets/images/illustration-create-post.webp" alt="" />
+        </div>
+      </article>
+
+      <article class="card bg-yellow-secondary p-6 flex flex-col gap-6">
+        <h2 class="text-3xl tracking-tight leading-7">Write your content using AI.</h2>
+        <div class="w-[13.75rem]">
+          <img src="./assets/images/illustration-ai-content.webp" alt="" />
+        </div>
+      </article>
+    </main>
+  </body>
 </html>
