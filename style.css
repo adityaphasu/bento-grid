@@ -21,7 +21,9 @@
 
 body {
   font-size: 1.125rem;
-  font-family: DM Sans, sans-serif;
+  font-family:
+    DM Sans,
+    sans-serif;
   background-color: hsl(0deg 0% 96.08%);
   padding: 2rem 1rem;
 }
@@ -34,4 +36,129 @@ h3 {
 
 .card {
   border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-1 {
+  h1 {
+    font-size: 2.7rem;
+    line-height: 2.65rem;
+  }
+}
+
+.card-2,
+.card-3 {
+  h2 {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    letter-spacing: -0.015em;
+  }
+}
+
+.card-4 {
+  h2 {
+    font-size: 1.45rem;
+  }
+  p {
+    line-height: 1.25rem;
+  }
+}
+
+.card-5 {
+  h2 {
+    font-size: 1.75rem;
+    line-height: 1.8rem;
+  }
+}
+
+@media (min-width: 48rem) {
+  .grid-container {
+    grid-template-areas:
+      "card-1 card-1"
+      "card-2 card-3"
+      "card-4 card-5"
+      "card-7 card-6"
+      "card-7 card-8";
+  }
+
+  .card-1 {
+    grid-area: card-1;
+  }
+
+  .card-2 {
+    grid-area: card-2;
+  }
+
+  .card-3 {
+    grid-area: card-3;
+  }
+
+  .card-4 {
+    grid-area: card-4;
+  }
+
+  .card-5 {
+    grid-area: card-5;
+  }
+  .card-6 {
+    grid-area: card-6;
+  }
+
+  .card-7 {
+    grid-area: card-7;
+  }
+
+  .card-8 {
+    grid-area: card-8;
+  }
+}
+
+@media (min-width: 64rem) {
+  body {
+    padding: 5.15rem 1rem 4rem;
+  }
+  .grid-container {
+    grid-template-rows: repeat(2, 146px) repeat(2, 60px) 64px 246px;
+    grid-template-areas:
+      "card-7 card-1 card-1 card-4"
+      "card-7 card-1 card-1 card-4"
+      "card-7 card-2 card-3 card-4"
+      "card-8 card-2 card-3 card-4"
+      "card-8 card-2 card-3 card-4"
+      "card-8 card-6 card-5 card-5";
+  }
+
+  .card-1 {
+    h1 {
+      font-size: 3.5rem;
+      line-height: 3.5rem;
+    }
+  }
+
+  .card-2,
+  .card-3 {
+    h2 {
+      font-size: 1.875rem;
+      line-height: 1.75rem;
+      letter-spacing: -0.025em;
+    }
+  }
+
+  .card-4 {
+    h2 {
+      font-size: 1.8rem;
+      line-height: 1.8rem;
+      letter-spacing: -0.01em;
+    }
+    p {
+      line-height: 1.22rem;
+    }
+  }
+  .card-5 {
+    h2 {
+      font-size: 2.25rem;
+      line-height: 2.25rem;
+    }
+  }
 }
