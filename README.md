@@ -4,6 +4,10 @@ A responsive bento grid layout built with Tailwind CSS. This project demonstrate
 
 ![Bento grid](/design/desktop-design.jpg)
 
+## Live Site
+
+- [Bento grid](https://bento-grid-eight-mu.vercel.app/)
+
 ## Features
 
 - Responsive grid layout
