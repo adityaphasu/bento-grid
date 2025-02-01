@@ -20,6 +20,7 @@ A responsive bento grid layout built with Tailwind CSS. This project demonstrate
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white)
+![GreenSock](https://img.shields.io/badge/GreenSock-88CE02.svg?style=for-the-badge&logo=GreenSock&logoColor=white)
 
 ## Getting Started
 
